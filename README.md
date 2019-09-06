@@ -6,8 +6,9 @@
 
 原则上 react-native  与 其他小程序也支持 , 但没测试过 . 如有问题 可自行修改源码或向我提Issues
 
-> ### 演示效果 
-
+> ### 演示 
+ <img    src='https://github.com/liganghui/taro-CountDownButton/blob/master/example/demo.gif?raw=true'/>
+ 
 > ### 使用方法
 
   1. 拷贝```DownButton```文件夹到你的```components```目录下 
