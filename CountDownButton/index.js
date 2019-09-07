@@ -10,7 +10,7 @@ const LCCountDownButtonState = {
 // {id , startTime, deathCount}
 var timeRecodes = []; //根据id来记录LCCountDownButton的信息
 
-export default class DownButton extends Component {
+export default class CountDownButton extends Component {
   // 构造
   constructor(props) {
     super(props);
@@ -26,7 +26,7 @@ export default class DownButton extends Component {
     beginText: "获取验证码", //初始状态按钮title
     endText: "重新获取", //读秒结束后按钮的title
     count: 60, //总的计时数 单位是秒s
-    onClick: () => {console.error('当显示此信息时 , 说明倒计时按钮没传入点击事件')}, //按下按钮的事件,但是触发倒数(startCountDown)需要你自己来调用
+    onClick: () => {console.error('参数错误：倒计时按钮组件没传入点击事件！')}, //按下按钮的事件,但是触发倒数(startCountDown)需要你自己来调用
     changeWithCount: (count) => {return count+'秒'}, //读秒变化的函数,该函数带有一个参数count,表示当前的剩余时间
     end: () => {}, //读秒完毕后的回调,读秒结束触发
     frameStyle: {}, //初始化的
