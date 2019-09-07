@@ -9,7 +9,7 @@
 如有问题 可自行修改源码或提Issues
 
 > ### 演示 
- <img    src='https://github.com/liganghui/taro-CountDownButton/blob/master/example/demo.gif?raw=true'/>
+ <img    src='https://github.com/liganghui/taro-CountDownButton/blob/master/doc/demo.gif?raw=true'/>
  
 > ### 使用方法
 
