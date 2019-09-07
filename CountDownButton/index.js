@@ -1,3 +1,14 @@
+    
+/**
+ * 倒计时按钮组件  基于  ReactNative-CountDownButton 二次开发修改
+ * 
+ * Created by lichengke on 2017/6/12. github : https://github.com/kkkelicheng/ReactNative-CountDownButton
+ *
+ * History：
+ *     1.  2019-09-07  liganhui  适配taro
+ *  
+ */
+
 import Taro, { Component } from "@tarojs/taro";
 import { Text, Button } from "@tarojs/components";
 import classNames from 'classnames'
